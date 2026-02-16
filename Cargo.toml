@@ -7,6 +7,8 @@ license = "MIT"
 repository = "https://github.com/perloudo/spaghetti-fix"
 keywords = ["dbt", "sql", "refactoring", "cte"]
 categories = ["command-line-utilities", "development-tools"]
+homepage = "https://github.com/perloudo/spaghetti-fix"
+readme = "README.md"
 
 [dependencies]
 sqlparser = { version = "0.59", features = ["serde", "visitor"] }

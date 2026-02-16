@@ -1,5 +1,8 @@
 # spaghetti-fix
 
+[![CI](https://github.com/perloudo/spaghetti-fix/actions/workflows/ci.yml/badge.svg)](https://github.com/perloudo/spaghetti-fix/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Split monolithic SQL into modular dbt projects.
 
 Takes a single SQL file full of CTEs and outputs a structured dbt project with properly layered models, `ref()` calls, schema YAML files, and a DOT lineage graph.
@@ -52,7 +55,8 @@ FROM {{ ref('stg_source') }}
 ## Installation
 
 ```bash
-cargo install --path .
+# From source
+cargo install --git https://github.com/perloudo/spaghetti-fix.git
 ```
 
 ## Usage
