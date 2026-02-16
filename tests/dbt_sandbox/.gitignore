@@ -1,0 +1,10 @@
+target/
+logs/
+dbt_packages/
+.user.yml
+models/staging/*.sql
+models/staging/_*__schema.yml
+models/intermediate/*.sql
+models/intermediate/_*__schema.yml
+models/marts/*.sql
+models/marts/_*__schema.yml

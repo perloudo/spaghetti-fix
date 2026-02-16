@@ -1,0 +1,6 @@
+name: spaghetti_sandbox
+version: '1.0.0'
+profile: spaghetti_sandbox
+model-paths: ["models"]
+seed-paths: ["seeds"]
+clean-targets: ["target", "dbt_packages"]

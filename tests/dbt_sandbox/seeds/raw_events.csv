@@ -1,0 +1,6 @@
+event_id,user_id,event_type,revenue,created_at
+1,1,purchase,100.00,2024-01-01
+2,1,purchase,200.00,2024-01-02
+3,2,signup,0.00,2024-01-03
+4,2,purchase,150.00,2024-01-04
+5,3,purchase,75.00,2024-01-05
